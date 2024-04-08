@@ -1,4 +1,4 @@
-# Ex-03--Linux-IPC--Pipes
+# Linux-IPC--Pipes
 Linux-IPC-Pipes
 
 
