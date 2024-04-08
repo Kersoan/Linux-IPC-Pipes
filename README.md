@@ -6,15 +6,12 @@ To write a C program that illustrate communication between two process using unn
 # DESIGN STEPS:
 
 ### Step 1:
-
 Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
 
 ### Step 2:
-
 Write the C Program using Linux Process API - pipe(), fifo()
 
 ### Step 3:
-
 Testing the C Program for the desired output. 
 
 # PROGRAM:
@@ -48,7 +45,6 @@ client(p1[1],p2[0]);
 wait(waits); 
 return 0; 
 } 
-
 void server(int rfd,int wfd) 
 { 
 int i,j,n; 
@@ -79,9 +75,7 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 ```
 ## OUTPUT
-
 <img width="468" alt="os 3-1" src="https://github.com/mudipavan/Linux-IPC-Pipes/assets/94828517/b23f55f8-da7c-4600-b70c-adbb6e917f98">
-
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 ```
@@ -97,9 +91,7 @@ exit(EXIT_SUCCESS);
 }
 ```
 ## OUTPUT
-
 <img width="459" alt="os 3-2" src="https://github.com/mudipavan/Linux-IPC-Pipes/assets/94828517/3de2caa6-f82d-45fa-882c-7427b71024fe">
-
 
 # RESULT:
 The program is executed successfully.
